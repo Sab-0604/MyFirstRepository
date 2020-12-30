@@ -1,0 +1,366 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Markazi+Text:wght@500&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+ /*0. SITE BODY*/
+ body {
+   background-image: url(styles/bg_mobile.png);
+   background-size: contain;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+hr {
+  animation: hr 4.25s;
+  animation-iteration-count: infinite; 
+  border: 1px solid red;
+}
+ /*1. BC MENU*/
+ .bc .ob {
+   width: 35px;
+   height: 35px;
+margin-left: -8.4px;
+margin-top: -3px;
+ }
+ .bc .openbtn {
+   position: relative;
+  position: absolute;
+  right: 9px;
+  animation: bcanmsy 4.25s;
+  animation-iteration-count: infinite;
+  width: 35px;
+  height: 35px;
+  top: 3px;
+  cursor: pointer;
+  background-image: url(styles/bg_mobile.png);
+  background-size: cover;
+  color: white;
+  padding: 2.5px 8px;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.bc .openbtn:hover {
+  background: #1B1B21;
+}
+ .bc .logoimg {
+   width: 180px;
+ }
+ .bc {
+   position: relative;
+   position: fixed;
+   font-family: three;
+   border: 3px solid white;
+   border-radius: 7px;
+   height: 42px;
+   background-image: url('styles/bg_mobile.png');
+   background-size: cover;
+   animation: bcanmsy 4.25s;
+   animation-iteration-count: infinite;
+   width: 98vw;
+ }
+ /*2. ONE MENU*/
+.main1 .mmhr {
+  animation: 1s mmhr infinite;
+}
+ .main1 .lione {
+   color: beige;
+   margin-left: 10px;
+   font-family: monospace;
+ }
+.main1 .hone {
+  color: aqua;
+  font-family: 'Langar', cursive;
+  font: outline;
+  font-size: 18px;
+  text-align: center;
+  font-stretch: ultra-condensed;
+}
+.main1 {
+  animation: bcanmsy 4.25s;
+  animation-iteration-count: infinite;
+  border: 3px double white;
+  border-radius: 9px;
+  background-image: url(styles/bg_mobile.png);
+  background-size: cover;
+  margin: 0 6px;
+}
+.yubbutton {
+  color: white;
+  height: 30px;
+  margin-left: 25px;
+  margin-bottom: 7px;
+  border: 2px double wheat;
+  border-radius: 7px;
+  animation-name: button;
+  animation-duration: 4.25s;
+  animation-iteration-count: infinite;
+   font-family: 'Lora', serif;
+  display: block;
+}
+#demo {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+.main1  textarea {
+    margin-left: 29.7px;
+    margin-top: 13px;
+    font-family:  'Lora', serif;
+    border: 4px dotted black;
+    animation-name: area;
+    animation-duration: 4.25s;
+    animation-iteration-count: infinite;
+    width: 77%;
+    height: 387px
+}
+/*3. TWO MENU*/
+.main2 .mmhr {
+  animation: 1.25s mmhr infinite;
+}
+ .main2 img {
+   width: 100%;
+      border-radius: 9px;
+ }
+ .main2 {
+   animation: bcanmsy 4.25s;
+   animation-iteration-count: infinite;
+   border: 3px double white;
+   border-radius: 9px;
+   background-image: url(styles/bg_mobile.png);
+   background-size: cover;
+   margin: 0 6px;
+ }
+ /*4. THREE MENU*/
+ .main3 {
+   border: 3px double white;
+   border-radius: 9px;
+   background-image: url(styles/bg_mobile.png);
+   background-size: cover;
+   margin: 0 6px;
+   animation: bcanmsy 4.25s;
+   animation-iteration-count: infinite;
+ }
+ .main3 p {
+   color: white;
+   font-family: 'Markazi Text', serif;
+   margin: 10px;
+   font-size: 20px;
+ }
+ .main3 h1 {
+   color: #00ff55;
+   font-family: 'Langar', cursive;
+   text-align: center;
+   animation-name: main2h1;
+   animation-duration: 4.25s;
+   animation-iteration-count: infinite;
+ }
+ .mtp {
+   text-align: center;
+   margin: 5px;
+   font-family: 'Caveat', cursive;
+ }
+ /*5. SITEBAR */
+.sitebar .nbhr {
+   animation: 4.25s nbhr initial;
+ }
+  .sidebar #navbarimg a:hover {
+    margin-left: 30px;
+  }
+ .closebuttonimg {
+   width: 25px;
+   height: 25px;
+        margin-left: 3px;
+ }
+ .sidebar #navbarimg img
+{
+        width: 25px;
+        height: 25px;
+      }
+.sidebar {
+  height: 100%; 
+  width: 0; 
+  position: relative;
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-image: url('styles/bg_mobile.png');
+  background-size: cover;
+  overflow-x: hidden;
+  padding-top: 40px;
+  transition: 0.5s; 
+}
+ .sidebar .closebtn {
+  position: absolute;
+  top: -5px;
+  right: 7px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-right: 4.6px;
+  animation: bcanmsy 4.25s;
+  animation-iteration-count: infinite;
+}
+   .sidebar  a {
+     margin: 10px 13px;
+     text-decoration: none;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     display: block;
+     line-height: 0px;
+  transition: 0.3s 0.3s;
+   }
+   .closebtn i {
+     font-size: 30px;
+     line-height: 23px;
+     margin-left: 3px;
+   }
+   .create {
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  font-family: 'Langar', cursive;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 30px;
+}
+.menusimg img {
+  width: 180px;
+  position: absolute;
+  top: 5%;
+  left: 3%
+}
+/*6. Animatsiyalar */
+@keyframes  main2h1 {
+  10%{
+    color: blue;
+  }
+  20% {
+color: #e60000;
+  }
+  30% {
+    color: #00d9ff;
+  }
+  40%{
+    color: rgba(255,0,255, 0.5);
+  }
+  50% {
+    color: #e60000;
+  }
+  60%{
+    color: rgb(0,68,255);
+  }
+  70% {
+    color: #147c80;
+  }
+  80%{
+   color: rgb(166,61,252);
+  }
+  90% {
+    color: #4e3f3f;
+  }
+  100%{
+    color: rgba(63,106,247, 0.603);
+  }
+}
+  @keyframes area {
+  10% {
+    border: 4px dotted: blue;
+  }
+  20% {
+    border: 4px dotted #e60000;
+  }
+  30% {
+    border: 4px dotted #00d9ff;
+  }
+  40%{
+    border: 4px dotted rgba(255, 0, 255, 0.5);
+  }
+  50% {
+    border: 4px dotted #e60000;
+  }
+  60%{
+    border: 4px dotted rgb(0, 68, 255);
+  }
+  70% {
+    border: 4px dotted #147c80;
+  }
+  80%{
+    border: 4px dotted rgb(166, 61, 252);
+  }
+  90% {
+    border: 4px dotted #4e3f3f;
+  }
+  100% {
+    border: 4px dotted rgba(63, 106, 247, 0.603);
+  }
+}
+@keyframes button {
+10%{
+  background-color: blue;
+}
+20% {
+  background-color: #e60000;
+}
+30% {
+  background-color: #00d9ff;
+}
+40%{
+  background-color: rgba(255, 0, 255, 0.5);
+}
+50% {
+  background-color: #e60000;
+}
+60%{
+  background-color: rgb(0, 68, 255);
+}
+70% {
+  background-color: #147c80;
+}
+80%{
+  background-color: rgb(166, 61, 252);
+}
+90% {
+  background-color: #4e3f3f;
+}
+100%{
+  background-color: rgba(63, 106, 247, 0.603);
+}
+}
+@keyframes bcanmsy {
+  0% {
+    border-color: white;
+  }
+  25% {
+    border-color: red;
+  }
+  50% {
+    border-color: aqua;
+  }
+  75% {
+    border-color: lime;
+  }
+  100% {
+    border-color: yellow;
+  }
+}
+@keyframes hr {
+  0% {
+    border: 1px solid white;
+  }
+  25% {
+    border: 1px solid red;
+  }
+  50% {
+    border: 1px solid aqua;
+  }
+  75% {
+    border: 1px solid lime;
+  }
+  100% {
+    border: 1px solid yellow;
+  }
+/*Qor Animatsiya*/
